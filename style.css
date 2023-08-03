@@ -1,3 +1,46 @@
-body(
-    
-)
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.quadrado img{
+    width: auto;
+    height:  110px;
+}
+.ret{
+    width: auto;
+    height: 150px;
+}
+.inicio{
+    background-image: linear-gradient(to top left,rgb(255,94,0), yellow,rgb(48, 211, 48));
+    width: auto;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.inicio .quadrados{
+display: flex;
+flex-wrap: wrap ;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.quadrado{
+background-color: #F1F6FE;
+    border: 1px solid #8CA9CE;
+    border-radius: 7px;
+    text-align: center;
+    padding: 15px 20px;
+    margin: 0 20px;
+    width: 200px;
+    transition: 0.3s ease-in-out;
+height: 280px;
+margin-top: 30px;
+}
+
+.quadrado:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 15px 1px;
+}
+
+.quadrado h1{
+    font-family: 'Oswald', sans-serif;   
+}
